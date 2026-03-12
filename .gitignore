@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables (NEVER commit real API keys)
+.env
+
+# Vector database (large, rebuild on deploy)
+chroma_db/
+
+# Saved company profiles (user data, keep local)
+data/
+
+# Streamlit local config
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
