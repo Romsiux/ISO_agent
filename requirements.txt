@@ -11,7 +11,6 @@ streamlit==1.37.0
 chromadb==0.5.3
 pypdf==4.3.1
 docx2txt==0.8
-tiktoken==0.7.0
 pandas==2.2.2
 plotly==5.23.0
 python-dotenv==1.0.1
